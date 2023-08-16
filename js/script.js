@@ -76,17 +76,15 @@ class BookCollection {
   }
 }
 
-//bookcollection
+// bookcollection
 const bookCollection = new BookCollection();
 
-if(document.getElementById('addButton'))
-{
-    const addButton = document.getElementById('addButton');
-    addButton.addEventListener('click', () => bookCollection.addBook());
+if (document.getElementById('addButton')) {
+  const addButton = document.getElementById('addButton');
+  addButton.addEventListener('click', () => bookCollection.addBook());
 }
 
-if(document.getElementById('bookList'))
-{
-    bookCollection.getBooksFromStorage();
-    bookCollection.displayBooks();
+if (document.getElementById('bookList')) {
+  bookCollection.getBooksFromStorage();
+  bookCollection.displayBooks();
 }
