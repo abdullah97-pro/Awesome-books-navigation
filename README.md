@@ -124,9 +124,9 @@ You can deploy this project using:
 
 👤 **Abdullah Ahmadi and Ivonne**
 
-- GitHub: [@abdullah97-pro](https://github.com/abdullah97-pro)
-- Twitter: [@Abdulla54370110](https://twitter.com/Abdulla54370110)
-- LinkedIn: [abdullah-ahmadi](https://www.linkedin.com/in/abdullah-ahmadi-9528a0252/)
+- GitHub: [@abdullah97-pro](https://github.com/abdullah97-pro) - [@IvonneBenitesRodriguez](https://github.com/IvonneBenitesRodriguez)
+- Twitter: [@Abdulla54370110](https://twitter.com/Abdulla54370110) - Twitter: [@IvonneBenitesR](https://twitter.com/IvonneBenitesR)
+- LinkedIn: [abdullah-ahmadi](https://www.linkedin.com/in/abdullah-ahmadi-9528a0252/) - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ivonnebenites/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
