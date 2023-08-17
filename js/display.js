@@ -10,6 +10,10 @@ class BookCollection {
     }
   }
 
+  saveBooksToStorage() {
+    localStorage.setItem('books', JSON.stringify(this.books));
+  }
+
   removeBookFromCollection(id) {
     const index = this.books.findIndex((book) => book.id === id);
     if (index !== -1) {
