@@ -82,6 +82,8 @@ h1::after {
   border-radius: 5px;
   font-size: 18px;
   font-weight: 700;
+  float: right;
+  margin-right: 110px;
 }
 
 header {
