@@ -1,0 +1,56 @@
+// function getTime() {
+//   const options = {
+//     year: 'numeric',
+//     month: 'short',
+//     day: 'numeric',
+//     hour: 'numeric',
+//     minute: 'numeric',
+//     second: 'numeric',
+//     hour12: true,
+//   };
+
+//   const currentTime = new Date().toLocaleString('en-US', options);
+//   return currentTime;
+// }
+
+// document.getElementById('timeDisplay').textContent = getTime();
+
+
+
+
+
+
+
+
+
+// function getTimeFormatted() {
+//     const options = {
+//       year: 'numeric',
+//       month: 'long',
+//       day: 'numeric',
+//       hour: 'numeric',
+//       minute: 'numeric',
+//       second: 'numeric',
+//       hour12: true
+//     };
+
+//     const currentDate = new Date();
+//     const day = currentDate.getDate();
+//     const month = currentDate.toLocaleString('default', { month: 'long' });
+//     const year = currentDate.getFullYear();
+//     const currentTime = currentDate.toLocaleTimeString('en-US', options);
+
+//     const formattedTime = `${month} ${day}th ${year}, ${currentTime}`;
+//     return formattedTime;
+//   }
+
+//   function updateTimeDisplay() {
+//     const timeDisplay = document.getElementById('timeDisplay');
+//     timeDisplay.textContent = getTimeFormatted();
+//   }
+
+//   // Update the time display initially
+//   updateTimeDisplay();
+
+//   // Update the time display every second
+//   setInterval(updateTimeDisplay, 1000);
