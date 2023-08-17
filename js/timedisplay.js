@@ -1,7 +1,7 @@
 function getTime() {
   const options = {
     year: 'numeric',
-    month: 'short',
+    month: 'long',
     day: 'numeric',
     hour: 'numeric',
     minute: 'numeric',
@@ -9,8 +9,16 @@ function getTime() {
     hour12: true,
   };
 
-  const currentTime = new Date().toLocaleString('en-US', options);
+  const currentDate = new Date();
+
+  const currentTime = currentDate.toLocaleTimeString('en-US', options);
   return currentTime;
 }
+function updateTimeDisplay() {
+  const timeDisplay = document.getElementById('timeDisplay');
+  timeDisplay.textContent = getTime();
+}
 
-document.getElementById('timeDisplay').textContent = getTime();
+updateTimeDisplay();
+
+setInterval(updateTimeDisplay, 1000);
